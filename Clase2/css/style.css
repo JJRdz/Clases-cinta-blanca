@@ -1,0 +1,18 @@
+.caja1{
+    border: 5px solid;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    color: blue;    
+}
+
+.caja2{
+    margin: 100px;
+    padding: 100px;
+    color: brown;
+    border: 3px solid;
+}
+
+h3{
+    color: aquamarine;
+    font-size: 50px;
+}
