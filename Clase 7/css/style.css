@@ -1,0 +1,61 @@
+body{
+    font-family: 'Courier New', Courier, monospace
+}
+
+.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.contenedor div{
+    box-sizing: border-box;
+    min-width: 150px;
+    padding: 20px;
+}
+
+.c2{
+    background-color: blue;
+    color: antiquewhite;    
+}
+
+.c3{
+    background-color: black;
+    color: antiquewhite;    
+}
+
+.c4{
+    background-color: rgb(16, 176, 204);
+    color: antiquewhite;    
+}
+
+.c5{
+    background-color: rgb(26, 236, 89);
+    color: antiquewhite;    
+}
+
+.c6{
+    background-color: rgb(156, 23, 30);
+    color: antiquewhite;    
+}
+
+.c2 .c3 .c4 .c5 .c6{
+    width: 100%;
+}
+/* Para tabletas reasignamos los bloques a 25% y 75% */
+@media (min-width: 600px){ 
+    .c2{
+        width: 25%
+    }
+    .c3{
+        width: 75%
+    }
+}
+@media (min-width: 950px){
+    .contenedor{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

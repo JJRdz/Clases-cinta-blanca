@@ -1,0 +1,45 @@
+body{  
+    font-size: 3em;
+
+}
+
+div [class*="bloque"]{
+    min-height: 200px;
+    flex: 1 2 40%;
+}
+
+.bloque1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 172, 252);
+    order: 2;    
+}
+.bloque2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 0, 0);
+    order: 1;    
+}
+.bloque3{
+    color: rgb(0, 0, 0);
+    background-color: rgb(11, 255, 113);
+    order: 5;    
+}.bloque4{
+    color: rgb(0, 0, 0);
+    background-color: rgb(43, 30, 121);
+    order: 6;    
+}.bloque5{
+    color: rgb(0, 0, 0);
+    background-color: rgb(243, 201, 13);
+    order: 3;    
+}.bloque6{
+    color: rgb(0, 0, 0);
+    background-color: rgb(35, 177, 233);
+    order: 7;    
+}.bloque7{
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 45, 175);
+    order: 14;    
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
