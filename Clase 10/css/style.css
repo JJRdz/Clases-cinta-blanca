@@ -1,0 +1,223 @@
+body{  
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    flex: 1;
+    max-width: 1200px;
+    display: inherit;
+    justify-content: inherit;
+    flex-wrap: inherit;
+    align-items: inherit;
+    height: inherit;    
+}
+
+.divisor{
+    display: grid;
+    /* grid-template-rows: filas / columnas */
+    /* grid-template-columns:  150px 200 px;
+    grid-template-rows: 200px 300px; */
+    /* grid-template-rows: 150px 200px / 200px 300px; */
+    /* grid-template: 550px 50% / 20% 600px; */
+    grid-template: 1fr / 350px 1fr;
+}
+.playlist{
+    padding: 20px 30px;
+    color: white;
+    background-color: blue;
+}
+
+.imagenLogo img{
+    max-width: 100%;
+}
+
+.listaSeries p:hover{
+    cursor: pointer;
+}
+
+.misSeries{
+    font-size: 20px;
+}
+
+.amigos a{
+    display: flex;
+    margin: auto auto 20px 30px;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+}
+
+.amigos a img{
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.playlistAmigos{
+    font-size: 20px;
+}
+
+.multimedia{   
+    display: grid;
+    grid-template-rows: 350px;
+}
+
+.nombreVideo{
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.nombreVideo p{
+    color: blueviolet;
+    margin: 0;
+    font-size: 15px;
+}
+
+.botones{
+    display: flex;
+}
+
+.agregar{
+    background-image: linear-gradient(to right,rgb(221, 44, 44),rgb(231, 213, 213));
+}
+
+.agregar, .guardar, .compartir, .comedia, .suspenso, .terror{
+    margin-right: 10px;
+}
+
+.agregar, .guardar, .compartir, .comedia, .suspenso, .terror :hover{
+    cursor: pointer;
+}
+
+.terror :hover{
+    cursor: pointer;
+}
+
+.compartir, .guardar{
+    color: rgb(39, 86, 240);
+    margin-left: 10px;
+    font-size: 13px;
+    margin-right: 15px;
+}
+
+.comedia, .suspenso, .terror{
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    font-size: 10px;
+    padding: 5px 15px;
+}
+
+.comedia{
+    margin-left: 25px;
+}
+
+
+
+.contenedorComentarios img{
+    width: 40px;
+}
+
+.comentarios{   
+    display: grid;
+    grid-template: 600px / 500px 1fr;
+}
+
+.comentarios span{
+    display: flex;
+    justify-content: center;
+    font-size: initial;
+}
+
+.comentarios :hover{
+    cursor: default;
+}
+
+.nuevoComentario p{
+    padding: 20px;
+}
+
+.nuevoComentario p{
+    margin-bottom: 20px;
+}
+
+.anadirComentario{
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+
+.anadirComentario img{
+    width: 50px;
+    border-radius: 25px 25px 15px 15px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.anadirComentario input{
+    background-color: white;
+    width: 300px;
+    cursor: text;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.anadirComentario input:hover{
+    cursor: text;
+}
+
+.contenedorComentarios{
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+}
+
+.contenedorComentarios img{
+    width: 50px;
+    border-radius: 25px 25px 15px 15px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.texto{
+    display: block;
+}
+
+.texto p{
+    margin: 0;
+    font-weight: bold;
+    color: black;
+
+}
+
+.texto span{
+    font-weight: 400;
+    color: aqua;
+}
+
+.sugerencias .nombreSugerencia{
+    display: flex;
+    justify-content: start;
+}
+
+.sugerencias img{
+    width: 60%;
+}
+
+.sugerencias{
+    text-align: left;
+}
+
+.sugerencias p{
+    padding: 20px 20px 10px 20px;
+}
+
+.sugerencias img:hover{
+    cursor: pointer;
+}
+
+.sugerencias span:hover{
+    cursor: pointer;
+}
