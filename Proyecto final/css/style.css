@@ -32,3 +32,38 @@
     max-height: 70vh;
     object-fit: cover;
 }
+
+.Suppliers{
+    margin-top: 100px;
+}
+.Suppliers .shadow{
+    margin-top: 65px;
+    margin-bottom: 35px;
+    padding-top: 5px;
+    border-top: solid rgb(142, 143, 138) .5px;
+}
+
+.Supplier-id{
+    width:300px;
+    margin: auto;
+}
+
+.Buyers{
+    margin-top: 75px;
+    border-top: solid rgb(142, 143, 138) .5px;
+}
+
+.Buyers .row{
+    margin-top: 100px;
+}
+
+.Steps{
+    margin-top: 35px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.Shadow{
+    margin-top: 5px;
+    text-align: center;
+}
