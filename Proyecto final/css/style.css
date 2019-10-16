@@ -67,3 +67,58 @@
     margin-top: 5px;
     text-align: center;
 }
+
+.AuctionSetup .Name{
+    margin-top: 80px;
+    width:500px;
+    margin-right: 1050px;
+    margin-left: auto;
+}
+
+.Participants{
+    margin-top: 20px;
+    width: 250px;
+    margin-right: 1050px;
+    margin-left: auto;
+}
+
+.AuctionType{
+    margin-top: 20px;
+    width: 350px;
+    margin-right: 1050px;
+    margin-left: auto;
+}
+
+.Duration{
+    margin-top: 20px;
+    width: 250px;
+    margin-right: 1050px;
+    margin-left: auto;
+}
+
+.Restriction{
+    margin-top: 20px;
+    width: 250px;
+    margin-right: 1050px;
+    margin-left: auto;
+}
+.ExtendedTime{
+    margin-top: 20px;
+    width: 290px;
+    margin-right: 1050px;
+    margin-left: auto;
+}
+.row-1{
+    margin-top: 60px;
+    width: 100%;
+    margin-right: 900px;
+    margin-left: 55px;
+}
+
+.row-1 .submit{
+    margin-top: 190px;
+}
+
+.SearchFile{
+    margin-top: 40px;
+}
